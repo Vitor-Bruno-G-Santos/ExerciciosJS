@@ -1,0 +1,33 @@
+@import url("./menu.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+input{
+    padding: 3px;
+}
+.perguntas{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 40%;
+    gap: 1rem;
+    align-items: center;
+}
+
+.imposto{
+    color: red;
+}
+.enviar{
+    width: 5rem;
+    padding: 3px 0px 3px 0px;
+    border: none;
+    background-color: #73ff3c;
+    border-radius: 4px;
+    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
