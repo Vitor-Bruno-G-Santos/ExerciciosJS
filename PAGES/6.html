@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXERCICIOS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/ex6.css">
     <script src="../JS/ex6.js"></script>
+    <script src="../JS/menu.js"></script>
 </head>
-<body> 
+
+<body>
 
     <nav class="nav-exercicios">
         <a class="link-exercicio" href="./1.html">
@@ -41,6 +44,8 @@
         <a class="link-exercicio" href="./10.html">
             <div class="exercicio">10</div>
         </a>
+        <button id="dia" class="troca" onclick="modo_dia()"><i class="fa-solid fa-sun"></i></button>
+        <button id="noite" class="troca" onclick="modo_noite()"><i class="fa-solid fa-moon"></i></button>
     </nav>
 
     <section class="perguntas">
@@ -52,4 +57,5 @@
     </section>
 
 </body>
+
 </html>
