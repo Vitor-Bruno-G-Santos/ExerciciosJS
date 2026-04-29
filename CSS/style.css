@@ -18,15 +18,15 @@
 body{
     background: var(--fundo);
     color: var(--texto-botao);
-    transition: all 0.5s ease;
+    transition: all 0.15s ease;
 }
 
 .perguntas{
 
     display: flex;
     flex-direction: column;
-    padding: 4rem 40%;
-    gap: 1rem;
+    padding: 4rem 20%;
+    gap: 1.5rem;
     align-items: center;
 
 }
