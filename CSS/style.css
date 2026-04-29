@@ -8,13 +8,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-:root{
-    --fundo: #1b2d53;
-    --cor-botao: rgb(98, 44, 122);
-    --texto-botao: white;
-}
-
-
 body{
     background: var(--fundo);
     color: var(--texto-botao);
